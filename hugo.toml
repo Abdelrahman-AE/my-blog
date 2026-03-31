@@ -1,5 +1,5 @@
 # Site configuration
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://my-blog-1yf.pages.dev/'
 languageCode = 'en-us'
 title = 'my-blog'
 theme = 'terminal'
