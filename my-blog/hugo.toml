@@ -1,3 +1,76 @@
-baseURL = 'https://example.org/'
+# Site configuration
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'my-blog'
+theme = 'terminal'
+
+# Enable tags and categories
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Main parameters
+[params]
+  # Site info
+  subtitle = "Cybersecurity research, CTF walkthroughs, and hacking techniques"
+  description = "A cybersecurity blog featuring CTF walkthroughs and security research"
+  
+  # Content settings
+  contentTypeName = "posts"
+  defaultTheme = "auto"
+  showMenuItems = 5
+  menuMore = "More"
+  readMore = "Read more"
+  dateFormat = "2006-01-02"
+  
+  # Reading time
+  showReadingTime = true
+  
+  # Footer
+  copyright = '© 2026 CyberSec Blog'
+  
+  # Cover images
+  autoCover = false
+  
+  # Google Analytics (leave empty for now)
+  gaAnalytics = ""
+
+# Main menu - this creates navigation
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+    
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+    
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+# Syntax highlighting for code blocks
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
+    style = "monokai"
+  
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

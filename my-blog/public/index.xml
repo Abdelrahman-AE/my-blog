@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CyberSec Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on CyberSec Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;-&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;title: &amp;ldquo;About Me&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;-&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;# About Me&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a cybersecurity enthusiast with a passion for:&lt;/p&gt;&#xA;&lt;p&gt;- Penetration testing&lt;/p&gt;&#xA;&lt;p&gt;- CTF competitions&lt;/p&gt;&#xA;&lt;p&gt;- Security research&lt;/p&gt;&#xA;&lt;p&gt;- Tool development&lt;/p&gt;&#xA;&lt;p&gt;## Skills&lt;/p&gt;&#xA;&lt;p&gt;- **Operating Systems**: Linux, Windows, macOS&lt;/p&gt;&#xA;&lt;p&gt;- **Languages**: Python, Bash, PowerShell&lt;/p&gt;&#xA;&lt;p&gt;- **Tools**: Nmap, Metasploit, Burp Suite, Wireshark&lt;/p&gt;&#xA;&lt;p&gt;## Certifications&lt;/p&gt;&#xA;&lt;p&gt;- OSCP (In Progress)&lt;/p&gt;&#xA;&lt;p&gt;- eJPT&lt;/p&gt;&#xA;&lt;p&gt;- Security+&lt;/p&gt;&#xA;&lt;p&gt;## Contact&lt;/p&gt;&#xA;&lt;p&gt;- GitHub: [@yourusername](&lt;a href=&#34;https://github.com/yourusername&#34;&gt;https://github.com/yourusername&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;- Twitter: [@yourhandle](&lt;a href=&#34;https://twitter.com/yourhandle&#34;&gt;https://twitter.com/yourhandle&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;- Email: &lt;a href=&#34;mailto:your.email@example.com&#34;&gt;your.email@example.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/first-ctf-walkthrough/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-ctf-walkthrough/</guid>
+      <description>&lt;p&gt;-&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;title: &amp;ldquo;Hack The Box: Trickster Machine Walkthrough&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;date: 2026-03-17&lt;/p&gt;&#xA;&lt;p&gt;tags: [&amp;ldquo;htb&amp;rdquo;, &amp;ldquo;ctf&amp;rdquo;, &amp;ldquo;walkthrough&amp;rdquo;, &amp;ldquo;linux&amp;rdquo;]&lt;/p&gt;&#xA;&lt;p&gt;draft: false&lt;/p&gt;&#xA;&lt;p&gt;-&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;## Machine Information&lt;/p&gt;&#xA;&lt;p&gt;Trickster is an easy-difficulty Linux machine on Hack The Box.&lt;/p&gt;&#xA;&lt;p&gt;### Reconnaissance&lt;/p&gt;&#xA;&lt;p&gt;First, let&amp;rsquo;s scan the target with nmap:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&#xA;&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&#xA;&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmap -sC -sV -oA nmap/trickster 10.10.11.34&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
