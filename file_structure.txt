@@ -1,0 +1,189 @@
+Folder PATH listing
+Volume serial number is 2A8F-28E5
+F:\HUGO - MY BLOG\MY-BLOG
+|   file_structure.txt
+|   
+\---my-blog
+    |   .hugo_build.lock
+    |   hugo.toml
+    |   
+    +---archetypes
+    |       default.md
+    |       
+    +---assets
+    +---content
+    |   |   about.md
+    |   |   _index.md
+    |   |   
+    |   \---posts
+    |           first-ctf-walkthrough.md
+    |           
+    +---data
+    +---i18n
+    +---layouts
+    +---public
+    |   |   404.html
+    |   |   apple-touch-icon.png
+    |   |   bundle.min.js
+    |   |   favicon.png
+    |   |   index.html
+    |   |   index.xml
+    |   |   og-image.png
+    |   |   sitemap.xml
+    |   |   
+    |   +---about
+    |   |       index.html
+    |   |       
+    |   +---categories
+    |   |       index.html
+    |   |       index.xml
+    |   |       
+    |   +---css
+    |   |       buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css
+    |   |       code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css
+    |   |       fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css
+    |   |       footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css
+    |   |       gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css
+    |   |       header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css
+    |   |       main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css
+    |   |       menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css
+    |   |       pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css
+    |   |       post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css
+    |   |       syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css
+    |   |       terminal-old.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css
+    |   |       terminal.min.4c97e62f78b157ac334b851d4c9c4262b11b5ba6fffce7f26b325356e8816eab.css
+    |   |       terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css
+    |   |       
+    |   +---fonts
+    |   |       FiraCode-Latin.woff2
+    |   |       FiraCode-LatinExt.woff2
+    |   |       
+    |   +---page
+    |   |   \---1
+    |   |           index.html
+    |   |           
+    |   +---posts
+    |   |   |   index.html
+    |   |   |   index.xml
+    |   |   |   
+    |   |   +---first-ctf-walkthrough
+    |   |   |       index.html
+    |   |   |       
+    |   |   \---page
+    |   |       \---1
+    |   |               index.html
+    |   |               
+    |   \---tags
+    |           index.html
+    |           index.xml
+    |           
+    +---static
+    \---themes
+        \---terminal
+            |   .babelrc
+            |   .editorconfig
+            |   .eslintrc.yml
+            |   .gitignore
+            |   .prettierrc
+            |   .stylelintrc.json
+            |   babel.config.js
+            |   COMMUNITY-FEATURES.md
+            |   config.toml
+            |   go.mod
+            |   LICENSE.md
+            |   package-lock.json
+            |   package.hugo.json
+            |   package.json
+            |   README.md
+            |   theme.toml
+            |   yarn.lock
+            |   
+            +---.husky
+            |       .gitignore
+            |       pre-push
+            |       
+            +---archetypes
+            |       posts.md
+            |       
+            +---assets
+            |   +---css
+            |   |       buttons.css
+            |   |       code.css
+            |   |       fonts.css
+            |   |       footer.css
+            |   |       gist.css
+            |   |       header.css
+            |   |       main.css
+            |   |       menu.css
+            |   |       pagination.css
+            |   |       post.css
+            |   |       syntax.css
+            |   |       terminal.css
+            |   |       terms.css
+            |   |       
+            |   \---js
+            |           code.js
+            |           menu.js
+            |           
+            +---exampleSite
+            |   |   config.toml
+            |   |   
+            |   +---content
+            |   |   |   about.md
+            |   |   |   showcase.md
+            |   |   |   
+            |   |   \---posts
+            |   |           hello.md
+            |   |           
+            |   \---static
+            |       \---img
+            |               hello.jpg
+            |               
+            +---images
+            |       screenshot.png
+            |       terminal-css.png
+            |       terminal-theme-old.png
+            |       terminal-theme.png
+            |       tn.png
+            |       
+            +---layouts
+            |   |   404.html
+            |   |   
+            |   +---partials
+            |   |       comments.html
+            |   |       cover.html
+            |   |       extended_footer.html
+            |   |       extended_head.html
+            |   |       footer.html
+            |   |       head.html
+            |   |       header.html
+            |   |       language-menu.html
+            |   |       logo.html
+            |   |       menu.html
+            |   |       mobile-menu.html
+            |   |       pagination.html
+            |   |       post-date.html
+            |   |       post-lastmod.html
+            |   |       posts_pagination.html
+            |   |       
+            |   +---shortcodes
+            |   |       code.html
+            |   |       image.html
+            |   |       
+            |   \---_default
+            |           baseof.html
+            |           index.html
+            |           list.html
+            |           single.html
+            |           term.html
+            |           terms.html
+            |           
+            \---static
+                |   apple-touch-icon.png
+                |   favicon.png
+                |   og-image.png
+                |   
+                \---fonts
+                        FiraCode-Latin.woff2
+                        FiraCode-LatinExt.woff2
+                        
